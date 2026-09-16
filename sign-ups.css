@@ -3,7 +3,7 @@ body{
   font-size: xx-large;
   display: flex;
   justify-content: center;
-  
+  flex-wrap: wrap;
  }
 
  .topline{
@@ -13,12 +13,16 @@ body{
   font-weight: 900;
   border-radius: 10px;
   display:flex;
-  justify-content: center;;
+  justify-content: center;
+  flex-wrap: wrap;
  }
+ 
  .dates{
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
  }
+
  .seperate{
 color:#1f2937;
   background-color: white;
